@@ -15,7 +15,7 @@ export function Contact() {
     try {
       setIsSubmitting(true);
       await emailjs.sendForm(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
+        'service_5ubnleo', // Replace with your EmailJS service ID
         'template_sg2i6qp', // Replace with your EmailJS template ID
         formRef.current,
         'FWBJE6lrxGJT-sR2c' // Replace with your EmailJS public key
