@@ -33,7 +33,7 @@ This repository contains the source code for my personal portfolio website. The 
 
    ## For preview, and exploring
 
-- Open your browser and navigate to https://portfolio-dqnfeibey-manns-projects-205ec38b.vercel.app.
+- Open your browser and navigate to https://mann-portfolio-site.vercel.app/.
 
 ## Features
 
