@@ -16,6 +16,7 @@ import { usePageTransition } from './hooks/usePageTransition';
 import { useSmoothScroll } from './hooks/useSmoothScroll';
 import { SectionWrapper } from './components/sections/SectionWrapper';
 import { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const { isLoading } = usePageTransition();
@@ -75,6 +76,7 @@ export default function App() {
           </>
         )}
       </Suspense>
+      <Analytics />
     </div>
   );
 }
