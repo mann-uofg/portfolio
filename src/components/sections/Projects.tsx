@@ -16,11 +16,11 @@ const projects = [
     link: 'https://github.com/mann-uofg/portfolio'
   },
   {
-    title: 'Unveiling Soon',
-    description: 'To be Updated.',
-    image: 'https://plus.unsplash.com/premium_photo-1731622288533-fd0addd267bd?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    tech: ['1', '2', '3'],
-    link: '#'
+    title: 'CodeView MCP',
+    description: 'AI-powered code-review toolkit: MCP server + CLI to analyze GitHub PRs with local LLM smells, cloud LLM summaries, inline comments, risk gating, and test stub generation.',
+    image: 'https://plus.unsplash.com/premium_photo-1682146029185-198922bd8350?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    tech: ['LLM', 'Python', 'MCP SDK', 'SQLite', 'OpenTelemetry'],
+    link: 'https://github.com/mann-uofg/codeview-mcp'
   }
 ];
 
