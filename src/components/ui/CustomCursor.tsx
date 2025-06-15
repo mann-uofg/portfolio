@@ -29,9 +29,9 @@ export function CustomCursor() {
         y: position.y,
       }}
       transition={{
-        type: "spring",
-        stiffness: 1154,
-        damping: 65
+        type: "tween", 
+        duration: 0.01, // Very short duration
+        ease: "linear"
       }}
     >
       <motion.div
